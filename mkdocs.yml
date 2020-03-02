@@ -37,6 +37,8 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - About Me: 'about.md'
+  - Python:
+    - Masonite: ./Python/masonite.md
   - RL:
     - Pythonで学ぶ強化学習: ./RL/python_RL.md
     - Gym Ignition: ./RL/gym_ignition.md
