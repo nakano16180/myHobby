@@ -33,3 +33,8 @@ $ craft serve
   - http://localhost:8000/post/1/update
     - 投稿をupdate or delete
     - 投稿の詳細ページからリンクしたい
+
+## リンク集
+- [Masonite-with-Postgres](https://testdriven.io/blog/dockerizing-masonite-with-postgres-gunicorn-and-nginx/#.XlJ_GULrcz8.twitter)
+- [dashboard-package](https://laptrinhx.com/masonite-python-framework-new-dashboard-package-3884653043/)
+- [masonite-app-with-user-verification](https://github.com/nioperas06/masonite-app-with-user-verification)
