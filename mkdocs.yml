@@ -38,6 +38,7 @@ nav:
   - Introduction: index.md
   - About Me: 'about.md'
   - 興味のあること: interest.md
+  - ドキュメント: ./dev/document.md
   - Python:
     - Masonite: ./Python/masonite.md
   - RL:
