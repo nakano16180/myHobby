@@ -37,6 +37,7 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - About Me: 'about.md'
+  - 興味のあること: interest.md
   - Python:
     - Masonite: ./Python/masonite.md
   - RL:
