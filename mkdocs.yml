@@ -40,6 +40,8 @@ nav:
   - 興味のあること: interest.md
   - ドキュメント: ./dev/document.md
   - Python:
+    - python: ./Python/python.md
+    - DB: ./Python/database.md
     - Masonite: ./Python/masonite.md
   - RL:
     - Pythonで学ぶ強化学習: ./RL/python_RL.md
