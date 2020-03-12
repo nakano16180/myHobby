@@ -49,6 +49,7 @@ nav:
     - Pythonで学ぶ強化学習: ./RL/python_RL.md
     - Gym Ignition: ./RL/gym_ignition.md
   - インフラ:
+    - docker-lambda: ./dev/docker-lambda.md
     - Minio: ./dev/minio.md
   - Nodejs:
     - API server: ./Nodejs/API.md
