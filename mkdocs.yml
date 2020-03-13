@@ -52,4 +52,5 @@ nav:
     - docker-lambda: ./dev/docker-lambda.md
     - Minio: ./dev/minio.md
   - Nodejs:
+    - Swagger: ./Nodejs/swagger.md
     - API server: ./Nodejs/API.md
