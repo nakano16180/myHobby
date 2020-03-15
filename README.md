@@ -1,9 +1,11 @@
 ## myHobby
 
 ```
-$ pip3 install mkdocs
-$ pip3 install mkdocs-material
-$ pip3 install pygments
+$ cd myHobby/
+$ virtualenv -p python3.6 venv
+$ source venv/bin/activate
+
+$ pip3 install -r requirements.txt
 ```
 
 ```
