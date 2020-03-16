@@ -1,6 +1,12 @@
 site_name: My Docs
 site_description: '自分のページ'
 site_author: 'nakano16180'
+site_url: https://nakano16180.github.io/myHobby/
+
+# Repository
+repo_name: nakano16180/myHobby
+repo_url: https://github.com/nakano16180/myHobby
+edit_uri: ""
 
 # Copyright
 copyright: 'Copyright (c) 2020'
