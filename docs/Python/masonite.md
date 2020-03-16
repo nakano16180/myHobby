@@ -35,6 +35,12 @@ $ craft serve
     - 投稿の詳細ページからリンクしたい
 
 ## リンク集
-- [Masonite-with-Postgres](https://testdriven.io/blog/dockerizing-masonite-with-postgres-gunicorn-and-nginx/#.XlJ_GULrcz8.twitter)
-- [dashboard-package](https://laptrinhx.com/masonite-python-framework-new-dashboard-package-3884653043/)
-- [masonite-app-with-user-verification](https://github.com/nioperas06/masonite-app-with-user-verification)
+  - [Masonite-with-Postgres](https://testdriven.io/blog/dockerizing-masonite-with-postgres-gunicorn-and-nginx/#.XlJ_GULrcz8.twitter)
+    - masoniteアプリをDockerで立ち上げ
+    - 使用するデータベースをPostgreSQLに設定
+  - [dashboard-package](https://laptrinhx.com/masonite-python-framework-new-dashboard-package-3884653043/)
+    - admin dashboard
+  - [masonite-app-with-user-verification](https://github.com/nioperas06/masonite-app-with-user-verification)
+    - masoniteとjson web tokenでメール認証機能を作れるっぽい
+  - [Introduction to Masonite and VueJS](https://medium.com/swlh/introduction-to-masonite-and-vuejs-e8538064a054)
+    - Masonite tutorialsのブログを作りつつフロントにVueJSを使う方法
