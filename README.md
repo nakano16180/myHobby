@@ -9,7 +9,6 @@ $ pip3 install -r requirements.txt
 ```
 
 ```
-$ mkdocs new myHobby
-$ cd myHobby/; code .
 $ mkdocs serve
+$ mkdocs gh-deploy
 ```
