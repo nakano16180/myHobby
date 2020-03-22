@@ -419,6 +419,27 @@
           
           
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-1" type="checkbox" id="nav-7-1" checked>
+    
+    <label class="md-nav__link" for="nav-7-1">
+      AWS
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-1">
+        AWS
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
 
   <li class="md-nav__item">
     <a href="../docker-lambda/" title="docker-lambda" class="md-nav__link">
@@ -490,6 +511,11 @@
   
 </nav>
     
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -611,6 +637,11 @@
                   <h1>Minio</h1>
                 
                 <h2 id="object-storage-for-local">Object storage for Local<a class="headerlink" href="#object-storage-for-local" title="Permanent link">#</a></h2>
+<ul>
+<li>ローカルで構築できるAWS S3互換のオブジェクトストレージ  </li>
+<li>後述のクライアントツールmcの他、AWS CLIで操作することも可能</li>
+<li>自作アプリでS3使いたいけど課金が心配などの場合に気にせず使える</li>
+</ul>
 <h3 id="minio">Minio<a class="headerlink" href="#minio" title="Permanent link">#</a></h3>
 <p><a href="https://docs.min.io/">公式ドキュメント</a></p>
 <div class="codehilite"><pre><span></span><code>$ docker pull minio/minio
