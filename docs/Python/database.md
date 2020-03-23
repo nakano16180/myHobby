@@ -11,3 +11,10 @@
 
 ## tinyDB
 - [tinyDB](https://github.com/msiemens/tinydb)
+
+## その他
+  - [PostgreSQL, SQLite, MySQL 間での書き方の差異](https://scientre.hateblo.jp/entry/20151225/postgres_mysql)
+    - データベース間の書き方の違い
+    - 同じ内容のデータベースを違うソフトで構築したいときの参考
+  - [pythonで簡単に表を標準出力する方法](https://hacknote.jp/archives/51659/)
+    - データベース操作の出力を表形式で整形できる
