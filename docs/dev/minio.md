@@ -22,6 +22,14 @@ $ docker run -it --entrypoint=/bin/sh minio/mc
 
 ### その他SDK
   - [AWS CLI](https://docs.min.io/docs/aws-cli-with-minio)
+    - インストールとConfiguration
   - [AWS SDK for Javascript](https://docs.min.io/docs/how-to-use-aws-sdk-for-javascript-with-minio-server.html)
-  - [Javascript Client api reference](https://docs.min.io/docs/javascript-client-api-reference.html#getBucketNotification)
-  - [Python Client api reference](https://docs.min.io/docs/python-client-quickstart-guide)
+    - AWS SDKでminioを接続して操作可能
+  - [Javascript Client api reference](https://docs.min.io/docs/javascript-client-api-reference.html)
+    - minio client for js
+    - minio serverとaws s3ともに使用できる（実行時の引数とかでわけれるかもね）
+  - [AWS SDK for Python](https://docs.min.io/docs/how-to-use-aws-sdk-for-python-with-minio-server.html)
+    - python用のAWS sdkであるboto3を用いてもminioを操作可能
+  - [Python Client api reference](https://docs.min.io/docs/python-client-api-reference)
+    - minio Library for python
+    - ちょっとしたCLIツールに便利かも
