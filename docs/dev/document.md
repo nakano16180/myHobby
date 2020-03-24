@@ -5,6 +5,9 @@
   - [HuckMDとGithub連携](https://1o0.jp/blog/post/201908/hugo-by-huckmd-github-netlify/)
 
 ### MkDocs
+  - [【年末大掃除】.mdをCI/CDで整理する](https://tech-blog.optim.co.jp/entry/2019/12/25/173000)
+    - GitLabでドキュメント作成を自動化
+    - 既存のプロジェクトのドキュメントサイトをMkdocsで作ってGitLab Pagesで公開
 #### サンプル集
   - MkDocs
     - [ドキュメントページ](https://www.mkdocs.org/)
