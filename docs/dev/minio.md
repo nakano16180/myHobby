@@ -33,3 +33,7 @@ $ docker run -it --entrypoint=/bin/sh minio/mc
   - [Python Client api reference](https://docs.min.io/docs/python-client-api-reference)
     - minio Library for python
     - ちょっとしたCLIツールに便利かも
+
+### Webhook
+  - [Introducing Webhooks for Minio](https://blog.minio.io/introducing-webhooks-for-minio-e2c3ad26deb2)
+    - Thumbnail generatorでWabhookを使うさいの紹介
