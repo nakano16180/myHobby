@@ -46,6 +46,7 @@ nav:
   - ドキュメント: ./dev/document.md
   - 開発環境:
     - Docker: ./dev/docker.md
+    - Slack: ./dev/slack-extend.md
   - Python:
     - python: ./Python/python.md
     - DB: ./Python/database.md
