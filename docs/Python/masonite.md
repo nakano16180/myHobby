@@ -38,9 +38,9 @@ $ craft serve
   - [Masonite-with-Postgres](https://testdriven.io/blog/dockerizing-masonite-with-postgres-gunicorn-and-nginx/#.XlJ_GULrcz8.twitter)
     - masoniteアプリをDockerで立ち上げ
     - 使用するデータベースをPostgreSQLに設定
-  - [dashboard-package](https://laptrinhx.com/masonite-python-framework-new-dashboard-package-3884653043/)
-    - admin dashboard
-  - [masonite-app-with-user-verification](https://github.com/nioperas06/masonite-app-with-user-verification)
-    - masoniteとjson web tokenでメール認証機能を作れるっぽい
   - [Introduction to Masonite and VueJS](https://medium.com/swlh/introduction-to-masonite-and-vuejs-e8538064a054)
     - Masonite tutorialsのブログを作りつつフロントにVueJSを使う方法
+  - [masonite-app-with-user-verification](https://github.com/nioperas06/masonite-app-with-user-verification)
+    - masoniteとjson web tokenでメール認証機能を作れるっぽい
+  - [Deploying a Masonite Application to Heroku](https://dev.to/masonite/deploying-a-masonite-application-to-heroku-45jp)
+    - Masoniteで作ったアプリケーションをHerokuにデプロイ
