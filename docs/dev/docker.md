@@ -38,3 +38,6 @@ $ sudo rm -rf /var/lib/docker
 ```
 $ pip3 install docker-compose
 ```
+
+## GPU Docker
+  - [NVIDIA Docker って今どうなってるの？ (19.11版)](https://qiita.com/ksasaki/items/b20a785e1a0f610efa08)
