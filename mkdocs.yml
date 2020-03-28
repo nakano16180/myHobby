@@ -47,6 +47,13 @@ nav:
   - 開発環境:
     - Docker: ./dev/docker.md
     - Slack: ./dev/slack-extend.md
+  - インフラ:
+    - AWS:
+      - docker-lambda: ./dev/docker-lambda.md
+      - Minio: ./dev/minio.md
+  - Nodejs:
+    - Swagger: ./Nodejs/swagger.md
+    - API server: ./Nodejs/API.md
   - Python:
     - python: ./Python/python.md
     - DB: ./Python/database.md
@@ -57,10 +64,3 @@ nav:
   - ROS:
     - Turtlebot: ./ROS/turtlebot.md
     - Ignition: ./ROS/ignition.md
-  - インフラ:
-    - AWS:
-      - docker-lambda: ./dev/docker-lambda.md
-      - Minio: ./dev/minio.md
-  - Nodejs:
-    - Swagger: ./Nodejs/swagger.md
-    - API server: ./Nodejs/API.md
