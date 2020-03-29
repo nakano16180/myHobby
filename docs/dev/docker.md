@@ -41,3 +41,9 @@ $ pip3 install docker-compose
 
 ## GPU Docker
   - [NVIDIA Docker って今どうなってるの？ (19.11版)](https://qiita.com/ksasaki/items/b20a785e1a0f610efa08)
+
+## 参考資料
+  - [Dockerコンテナのシェルの中に入る](https://qiita.com/__cooper/items/4740c24666299c366044)
+  - [Dockert調査　~ログ編~](https://qiita.com/HommaHomma/items/f943fa3397bc3f386057)
+  - [docker-compose logs](https://docs.docker.com/compose/reference/logs/)
+  - [docker-compose コマンドまとめ](https://qiita.com/wasanx25/items/d47caf37b79e855af95f)
