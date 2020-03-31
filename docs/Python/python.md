@@ -1,14 +1,18 @@
 ## 環境構築
-### 移行
-  - [きたない requirements.txt から Pipenv への移行](https://www.kabuku.co.jp/developers/python-pipenv-graph)
-    - 今までvirtualenvとrequirements.txt使ってたのをPipenvに移行するときの参考になりそう
-
 ### virtualenv
   - [Python の実行環境を切り替えて使用する (virtualenv)](https://maku77.github.io/python/env/virtualenv.html)
   - [【Python】Virtualenvを使った仮想環境の構築](https://hibiki-press.tech/learn_prog/python/virtualenv/4545)
 
 ### Pipenv
   - [公式リポジトリ](https://github.com/pypa/pipenv)
+#### インストール
+
+```
+$ python3 -m pip install pipenv
+```
+#### 参考リンク
+  - [きたない requirements.txt から Pipenv への移行](https://www.kabuku.co.jp/developers/python-pipenv-graph)
+    - 今までvirtualenvとrequirements.txt使ってたのをPipenvに移行するときの参考になりそう
   - [pyenv、pyenv-virtualenv、venv、Anaconda、Pipenv。私はPipenvを使う。](https://qiita.com/KRiver1/items/c1788e616b77a9bad4dd)
     - よく聞く仮想環境のツールと比較されていて良い
   - [Pythonで、Pipenvを使う](https://narito.ninja/blog/detail/58/)
