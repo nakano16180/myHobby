@@ -10,6 +10,11 @@
 ```
 $ python3 -m pip install pipenv
 ```
+bashrcに以下を追加
+
+```
+export PIPENV_VENV_IN_PROJECT=true
+```
 #### 参考リンク
   - [きたない requirements.txt から Pipenv への移行](https://www.kabuku.co.jp/developers/python-pipenv-graph)
     - 今までvirtualenvとrequirements.txt使ってたのをPipenvに移行するときの参考になりそう
