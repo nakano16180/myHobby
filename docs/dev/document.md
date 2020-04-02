@@ -21,3 +21,7 @@
   - pymdown extension
     - [ドキュメントページ](https://facelessuser.github.io/pymdown-extensions/)
     - [yamlファイル](https://github.com/facelessuser/pymdown-extensions/blob/master/mkdocs.yml)
+
+### Github pages
+  - プロジェクトごとにドキュメントページを生成してgithubにホスティングできる
+  - リポジトリ名に _ を含むのはだめっぽい
