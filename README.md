@@ -6,8 +6,7 @@ $ pipenv install
 ```
 
 ```
-$ pipenv shell
-$ mkdocs serve
+$ pipenv run mkdocs serve
 ```
 
 ## 参考
