@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 mkdocs-material = "==4.6.3"
 nltk = "==3.4.5"
+mkdocs-git-revision-date-localized-plugin = "*"
 
 [requires]
 python_version = "3.6"
