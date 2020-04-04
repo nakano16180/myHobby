@@ -61,6 +61,7 @@ nav:
   - Python:
     - python: ./Python/python.md
     - DB: ./Python/database.md
+    - Flask: ./Python/flask.md
     - Masonite: ./Python/masonite.md
   - RL:
     - Pythonで学ぶ強化学習: ./RL/python_RL.md
