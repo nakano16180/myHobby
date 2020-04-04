@@ -20,7 +20,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install -r ./requirements.txt
+        pip install pipenv
+        pipenv install --dev --deploy --system --ignore-pipfile
 
     - name: Build
       run: mkdocs build
