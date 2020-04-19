@@ -13,7 +13,7 @@
         <meta name="description" content="自分のページ">
       
       
-        <link rel="canonical" href="https://nakano16180.github.io/myHobby/ROS/turtlebot/">
+        <link rel="canonical" href="https://nakano16180.github.io/myHobby/ROS/open_manipulator/">
       
       
         <meta name="author" content="nakano16180">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Turtlebot - My Docs</title>
+        <title>Open Manipilator - My Docs</title>
       
     
     
@@ -83,7 +83,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#turtlebot2" tabindex="0" class="md-skip">
+      <a href="#open-manipulator-x" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -109,7 +109,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Turtlebot
+                Open Manipilator
               
             </span>
           
@@ -587,6 +587,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../turtlebot/" title="Turtlebot" class="md-nav__link">
+      Turtlebot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -596,11 +608,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Turtlebot
+        Open Manipilator
       </label>
     
-    <a href="./" title="Turtlebot" class="md-nav__link md-nav__link--active">
-      Turtlebot
+    <a href="./" title="Open Manipilator" class="md-nav__link md-nav__link--active">
+      Open Manipilator
     </a>
     
       
@@ -612,16 +624,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#turtlebot2" class="md-nav__link">
-    turtlebot2
+  <a href="#open-manipulator-x" class="md-nav__link">
+    Open Manipulator x
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-ros1" class="md-nav__link">
+    use ROS1
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#turtlebot3" class="md-nav__link">
-    turtlebot3
+        
+          <li class="md-nav__item">
+  <a href="#use-ros2" class="md-nav__link">
+    use ROS2
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -633,18 +658,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../open_manipulator/" title="Open Manipilator" class="md-nav__link">
-      Open Manipilator
-    </a>
   </li>
 
         
@@ -684,16 +697,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#turtlebot2" class="md-nav__link">
-    turtlebot2
+  <a href="#open-manipulator-x" class="md-nav__link">
+    Open Manipulator x
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-ros1" class="md-nav__link">
+    use ROS1
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#turtlebot3" class="md-nav__link">
-    turtlebot3
+        
+          <li class="md-nav__item">
+  <a href="#use-ros2" class="md-nav__link">
+    use ROS2
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -714,20 +740,105 @@
               
                 
                 
-                  <h1>Turtlebot</h1>
+                  <h1>Open Manipilator</h1>
                 
-                <h2 id="turtlebot2">turtlebot2<a class="headerlink" href="#turtlebot2" title="Permanent link">#</a></h2>
+                <h2 id="open-manipulator-x">Open Manipulator x<a class="headerlink" href="#open-manipulator-x" title="Permanent link">#</a></h2>
+<h3 id="use-ros1">use ROS1<a class="headerlink" href="#use-ros1" title="Permanent link">#</a></h3>
+<div class="codehilite"><pre><span></span><code>$ sudo apt install ros-melodic-controller-* ros-melodic-gazebo-* ros-melodic-moveit* ros-melodic-industrial-core 
+$ mkdir -p catkin_ws/src
+$ <span class="nb">cd</span> ~/catkin_ws/src/
+$ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+$ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+$ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
+$ git clone https://github.com/ROBOTIS-GIT/open_manipulator.git
+$ git clone https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
+$ git clone https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+$ git clone https://github.com/ROBOTIS-GIT/robotis_manipulator.git
+
+$ sudo apt install python-catkin-tools 
+$ <span class="nb">cd</span> ~/catkin_ws/ <span class="o">&amp;&amp;</span> catkin build
+</code></pre></div>
+
+
+<div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/catkin_ws/devel/setup.bash
+$ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch 
+
+$ roslaunch open_manipulator_controller open_manipulator_controller.launch
+$ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
+</code></pre></div>
+
+
 <ul>
-<li><a href="https://github.com/turtlebot">turtlebotのリポジトリ</a></li>
-<li><a href="https://github.com/ros2/turtlebot2_demo">ros2/turtlebot2_demo</a></li>
-<li><a href="https://github.com/ros-planning/navigation2">navigation2</a></li>
-<li><a href="https://github.com/ros2/cartographer_ros">cartographer_ros</a></li>
+<li>Keyboard teleop</li>
+<li>srv : goal_task_space_path_from_present_position_only</li>
 </ul>
-<h2 id="turtlebot3">turtlebot3<a class="headerlink" href="#turtlebot3" title="Permanent link">#</a></h2>
+<div class="codehilite"><pre><span></span><code>$ roscore
+$ rosrun open_manipulator_controller create_udev_rules
+
+$ roslaunch open_manipulator_controller open_manipulator_controller.launch
+$ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
+</code></pre></div>
+
+
+<hr />
+<p>open_manipulator_gazebo</p>
 <ul>
-<li><a href="http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/">ROBOTIS e-manual</a></li>
-<li><a href="https://github.com/ROBOTIS-GIT/turtlebot3/tree/ros2">ROBOTIS-GIT/turtlebot3</a></li>
-<li><a href="https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/ros2">ROBOTIS-GIT/turtlebot3_simulations</a></li>
+<li>
+<p>config/open_manipulator_controller.yaml</p>
+<ul>
+<li>joint_state_publisher</li>
+<li>
+<p>Publish all joint states</p>
+</li>
+<li>
+<p>joint?_position</p>
+</li>
+<li>joint_position_controller  </li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="use-ros2">use ROS2<a class="headerlink" href="#use-ros2" title="Permanent link">#</a></h3>
+<div class="codehilite"><pre><span></span><code>$ sudo apt install python3-rospkg
+$ sudo apt install ros-dashing-python* ros-dashing-rqt*
+$ mkdir -p ~/robotis_ws/src/ <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/robotis_ws/src
+$ git clone -b ros2 https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+$ git clone -b ros2 https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+$ git clone -b ros2 https://github.com/ROBOTIS-GIT/open_manipulator.git 
+$ git clone -b ros2 https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
+$ git clone -b ros2 https://github.com/ROBOTIS-GIT/open_manipulator_dependencies.git
+$ git clone -b ros2 https://github.com/ROBOTIS-GIT/robotis_manipulator.git
+
+$ <span class="nb">cd</span> ~/robotis_ws <span class="o">&amp;&amp;</span> colcon build --symlink-install
+</code></pre></div>
+
+
+<div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/robotis_ws/install/local_setup.bash 
+$ ros2 run open_manipulator_x_controller create_udev_rules 
+$ ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch.py 
+</code></pre></div>
+
+
+<div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/robotis_ws/install/local_setup.bash 
+$ ros2 topic pub /open_manipulator_x/option std_msgs/msg/String <span class="s2">&quot;data: print_open_manipulator_x_setting&quot;</span>
+$ ros2 run open_manipulator_x_teleop open_manipulator_x_teleop_keyboard
+</code></pre></div>
+
+
+<ul>
+<li>gripper</li>
+<li>
+<p>srv (open_manipulator_msgs::srv::SetJointPosition)</p>
+<ul>
+<li>
+<p>open_manipulator_x/goal_tool_control</p>
+</li>
+<li>
+<p>joint_name: gripper</p>
+</li>
+<li>position: 0.01(open) or -0.01(close)</li>
+</ul>
+</li>
 </ul>
                 
                   
@@ -760,7 +871,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../RL/gym_ignition/" title="Gym Ignition" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../turtlebot/" title="Turtlebot" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -769,19 +880,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Gym Ignition
+                Turtlebot
               </span>
             </div>
           </a>
         
         
-          <a href="../open_manipulator/" title="Open Manipilator" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../ignition/" title="Ignition" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Open Manipilator
+                Ignition
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
