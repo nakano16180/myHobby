@@ -70,4 +70,5 @@ nav:
     - Gym Ignition: ./RL/gym_ignition.md
   - ROS:
     - Turtlebot: ./ROS/turtlebot.md
+    - Open Manipilator: ./ROS/open_manipulator.md
     - Ignition: ./ROS/ignition.md
