@@ -8,6 +8,13 @@
   - [【年末大掃除】.mdをCI/CDで整理する](https://tech-blog.optim.co.jp/entry/2019/12/25/173000)
     - GitLabでドキュメント作成を自動化
     - 既存のプロジェクトのドキュメントサイトをMkdocsで作ってGitLab Pagesで公開
+  - [git-revision-date-localizedプラグイン](https://roy-n-roy.github.io/mkdocs/gitRevisionDate/)
+    - 更新日時を表示できる
+  - [GitHub Actions による GitHub Pages への自動デプロイ](https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d)
+    - プッシュしたら自動でデプロイ
+  - [GitHub Actionsを利用したMkDocsの自動デプロイ](https://roy-n-roy.github.io/mkdocs/githubActions/)
+    - プッシュしたら自動でデプロイ(上のやつよりもう少し詳しい設定ある)
+
 #### サンプル集
   - MkDocs
     - [ドキュメントページ](https://www.mkdocs.org/)
