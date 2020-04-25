@@ -11,5 +11,14 @@
     - Webhooksを受け取るサーバーをLalavelで構築し、Herokuにデプロイ（Masoniteで代用できるかな）
   - [Slackのslash command + Googleスプレッドシート + GASで貸出帳を作った](https://note.com/yuickomori/n/nb0ecbff77056)
   - [slackで「投稿ルールが守られない問題」を自作のスラッシュコマンドで解決する(設定編)](https://qiita.com/marogoma/items/e3003564c1b8b7b09e29)
+
+### Bot
+  - [[Slack]Botkitをherokuの無料プランで動かす方法](https://qiita.com/biga816/items/148a1156cd8b1a964b91)
+    - BotkitというのをつかってBotをつくるところからHerokuにデプロイまで
+  - [HubotをHerokuでSlackに繋げるまで](https://qiita.com/chibi929/items/79161111dee411000411)
+  - [研究室のHPをサーバレス、SPA、GraphQL、ChatOpsで作った](https://qiita.com/asmsuechan/items/17f168f151346ac5cf65)
+    - BotでWebページ管理
+    - コマンドにいろいろオプションつくこと考えるとSlash commandよりボットのほうがいいのかも
+
 ### その他
   - [App interaction patterns](https://github.com/slackapi/app-interaction-patterns)
