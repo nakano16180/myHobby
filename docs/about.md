@@ -1,3 +1,10 @@
+## About Me
+  - 怠惰
+  - 飽き性
+  - 楽したい
+  - 何もしたくない
+  - 「楽したい」、「何もしたくない」を叶えてくれる生活を自分で作りたい
+
 ## Links
   - [Qiita](https://qiita.com/KN_Apple)
   - [GitHub](https://github.com/nakano16180)
