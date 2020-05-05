@@ -47,3 +47,6 @@ $ pip3 install docker-compose
   - [Dockert調査　~ログ編~](https://qiita.com/HommaHomma/items/f943fa3397bc3f386057)
   - [docker-compose logs](https://docs.docker.com/compose/reference/logs/)
   - [docker-compose コマンドまとめ](https://qiita.com/wasanx25/items/d47caf37b79e855af95f)
+  - [docker-compose.ymlで.envファイルに定義した環境変数を使う](https://kitigai.hatenablog.com/entry/2019/05/08/003000)
+  - [docker-compose コマンド](http://docs.docker.jp/compose/reference/docker-compose.html)
+    - -f オプションで、カスタムのdocker-composeファイルを指定
