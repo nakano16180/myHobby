@@ -55,3 +55,4 @@ $ craft serve
     - メールかslackに通知を送る機能
   - [masonite-app-with-user-verification](https://github.com/nioperas06/masonite-app-with-user-verification)
     - masoniteとjson web tokenでメール認証機能を作れるっぽい
+  - [Building a Weather App With Masonite Framework - Basics Concepts](https://dev.to/kolawole39/building-a-weather-app-with-masonite-framework-basics-concepts-5183)

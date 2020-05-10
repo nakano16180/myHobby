@@ -20,6 +20,8 @@ export PIPENV_VENV_IN_PROJECT=true
     - よく聞く仮想環境のツールと比較されていて良い
   - [Pythonで、Pipenvを使う](https://narito.ninja/blog/detail/58/)
     - python公式が正式に推薦しているツールらしい
+  - [複数人で使うpython製ツールの実行環境構築にpipenvを使ってみたら、とても便利だった](https://kapiecii.hatenablog.com/entry/2019/01/26/220000)
+  - [【小ネタ】Pipfileにスクリプトショートカットを作成する](https://dev.classmethod.jp/articles/pipfile-scripts-shortcuts/)
   - [Pipenv と Docker を使った開発環境のベストプラクティス](https://qiita.com/kawasin73/items/3e58fc8a14af66ab7204)
     - Dockerで固めてるから他との依存含め環境を隔離できる
   - [きたない requirements.txt から Pipenv への移行](https://www.kabuku.co.jp/developers/python-pipenv-graph)
