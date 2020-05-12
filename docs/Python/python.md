@@ -35,3 +35,5 @@ export PIPENV_VENV_IN_PROJECT=true
     - [postgres cli](https://github.com/dbcli/pgcli)
   - [invoke](https://github.com/pyinvoke/invoke)
     - cliツール的なやつかな？
+  - [Diagramsを使ってPythonでシステム構成図を描く](https://dev.classmethod.jp/articles/diagrams-introduction/)
+  - [Python3 で JSON の読み書きをする方法（WebAPI にも対応） – サンプルコード付](https://www.craneto.co.jp/archives/1331/)
