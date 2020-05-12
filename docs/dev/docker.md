@@ -50,3 +50,6 @@ $ pip3 install docker-compose
   - [docker-compose.ymlで.envファイルに定義した環境変数を使う](https://kitigai.hatenablog.com/entry/2019/05/08/003000)
   - [docker-compose コマンド](http://docs.docker.jp/compose/reference/docker-compose.html)
     - -f オプションで、カスタムのdocker-composeファイルを指定
+  - [docker と docker-compose の初歩](https://qiita.com/hiyuzawa/items/81490020568417d85e86)
+  - [Dockerfileとdocker-compose.ymlが何を書いてるか読み解こう](http://tech.innovation.co.jp/2018/01/26/read-docker-files.html)
+  - [Dockerのログのクリア方法とローテーション設定について](https://note.com/funmylife/n/nc3210727e11f)
