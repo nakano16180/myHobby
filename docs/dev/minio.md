@@ -44,6 +44,7 @@ $ docker run -it --entrypoint=/bin/sh minio/mc
   - [LaravelからS3互換のMinIOを使えるように、docker-compose環境を整える](https://www.seeds-std.co.jp/blog/creators/2019-11-28-003000/)
   - [S3互換のオブジェクトストレージ MinioをDocker Composeで利用する](https://cloudpack-media.cdn.ampproject.org/v/s/cloudpack.media/46077/amp?usqp=mq331AQFKAGwASA%3D&amp_js_v=0.1#aoh=15851490530866&referrer=https%3A%2F%2Fwww.google.com&amp_tf=%E3%82%BD%E3%83%BC%E3%82%B9%3A%20%251%24s&ampshare=https%3A%2F%2Fcloudpack.media%2F46077)
   - [MinIO Server Config Guid](https://docs.min.io/docs/minio-server-configuration-guide.html)
+  - [Create default buckets via environment variables in docker](https://github.com/minio/minio/issues/4769)
 
 ### minio client
   - [MinIO Client Complete Guide](https://docs.min.io/docs/minio-client-complete-guide)
@@ -56,8 +57,12 @@ $ docker run -it --entrypoint=/bin/sh minio/mc
 ### Notification
   - [Introducing Webhooks for Minio](https://blog.minio.io/introducing-webhooks-for-minio-e2c3ad26deb2)
   - [MinIO Bucket Notification Guide](https://docs.min.io/docs/minio-bucket-notification-guide.html)
+  - [minio/thumbnailer](https://github.com/minio/thumbnailer)
 
 ### deploy
   - [Deploy MinIO on Docker Compose](https://docs.min.io/docs/deploy-minio-on-docker-compose.html)
   - [Deploy MinIO on Kubernetes](https://docs.min.io/docs/deploy-minio-on-kubernetes.html)
   - [Synology NASにMinio on DockerをインストールしてS3互換サーバーにする](https://blog.ik.am/entries/441)
+
+### その他
+  - [Dockerネットワーク内のminioで署名付きURLを使う時のTIPS](https://n-s.tokyo/2019/04/minio-tips/)
