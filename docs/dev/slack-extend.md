@@ -19,6 +19,11 @@
   - [研究室のHPをサーバレス、SPA、GraphQL、ChatOpsで作った](https://qiita.com/asmsuechan/items/17f168f151346ac5cf65)
     - BotでWebページ管理
     - コマンドにいろいろオプションつくこと考えるとSlash commandよりボットのほうがいいのかも
+  - [PythonでSlackBot開発①「APIキーの取得と簡単な返答」](https://www.virtual-surfer.com/entry/2018/04/04/190000)
+  - [PythonでSlackBot開発②「Herokuにデプロイする」](https://www.virtual-surfer.com/entry/2018/04/05/190000)
+  - [PythonでSlackBot開発⑥「MySQL連携してデータベース利用」](https://www.virtual-surfer.com/entry/2018/04/09/190000)
+  - [PythonでSlackBot開発⑧「Heroku Schedulerでプログラム定期実行」](https://www.virtual-surfer.com/entry/2018/04/12/190000)
+  - [PythonでSlackBot開発⑨「Twitterのつぶやき情報をMySQLに保存する」](https://www.virtual-surfer.com/entry/2018/04/14/190000)
 
 ### その他
   - [App interaction patterns](https://github.com/slackapi/app-interaction-patterns)
