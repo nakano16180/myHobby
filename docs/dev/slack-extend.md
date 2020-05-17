@@ -4,6 +4,7 @@
   - [Block Kit を使ってより情報的なレストラン検索コマンドを作ろう](https://api.slack.com/lang/ja-jp/slash-block-kit)
   - [Block KitでリッチなSlackアプリを作る -乗換経路案内での実例-](https://qiita.com/navitime_tech/items/85de33072486e7d323a5)
   - [SlackのBlock Kitを試す](https://www.dkrk-blog.net/slack/block_kit)
+  - [Block Kit Builder を使ってインタラクティブな Slack アプリをプロトタイピングしよう](https://qiita.com/seratch/items/628751be65de9eb23a80)
 
 ### command
   - [Slack Appに挑戦(1) - WebhookとSlash Commandまで](https://qiita.com/kanaxx/items/a12a523ca3143b5822b8)
@@ -27,3 +28,4 @@
 
 ### その他
   - [App interaction patterns](https://github.com/slackapi/app-interaction-patterns)
+  - [SlackのIncoming WebhookアプリをGoを使ってメッセージ送信](https://ssabcire.hatenablog.com/entry/2019/12/13/143606)
