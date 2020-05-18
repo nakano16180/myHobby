@@ -25,6 +25,8 @@
   - [PythonでSlackBot開発⑥「MySQL連携してデータベース利用」](https://www.virtual-surfer.com/entry/2018/04/09/190000)
   - [PythonでSlackBot開発⑧「Heroku Schedulerでプログラム定期実行」](https://www.virtual-surfer.com/entry/2018/04/12/190000)
   - [PythonでSlackBot開発⑨「Twitterのつぶやき情報をMySQLに保存する」](https://www.virtual-surfer.com/entry/2018/04/14/190000)
+  - [Bolt 入門ガイド](https://slack.dev/bolt-js/ja-jp/tutorial/getting-started)
+  - [Hubot のアプリを Bolt に移行する方法](https://slack.dev/bolt-js/ja-jp/tutorial/hubot-migration)
 
 ### その他
   - [App interaction patterns](https://github.com/slackapi/app-interaction-patterns)
