@@ -7,6 +7,11 @@
   - [ROS講座14 URDFを記述する2](https://qiita.com/srs/items/77f378230bf856a3625c)
     - jointのtype revolute
     - 関節のように回転に限界のあるヒンジ構造
+  - [ROS講座68 xacroを使う1](https://qiita.com/srs/items/43528d00ee789171367f)
+    - check_urdf
+  - [ROS講座73 xacroを使う2](https://qiita.com/srs/items/9ac7f2f6e47732bb7535)
+    - macroによるモジュール化
+    - インクルード
   - [ROS講座33 車輪ロボットを作る1(rvizで表示)](https://qiita.com/srs/items/c1065543228e95be1a0f)
     - 対向二輪車輪型ロボット
     - xacroで記述

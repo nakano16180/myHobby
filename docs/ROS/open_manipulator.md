@@ -1,8 +1,14 @@
 ## Open Manipulator x
-### use ROS1
+### use ROS1 (Melodic)
+#### install dependencies
 
 ```
 $ sudo apt install ros-melodic-controller-* ros-melodic-gazebo-* ros-melodic-moveit* ros-melodic-industrial-core 
+```
+
+#### install packages and build
+
+```
 $ mkdir -p catkin_ws/src
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -17,6 +23,8 @@ $ sudo apt install python-catkin-tools
 $ cd ~/catkin_ws/ && catkin build
 ```
 
+#### launch Gazebo simulator
+
 ```
 $ source ~/catkin_ws/devel/setup.bash
 $ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch 
@@ -27,6 +35,8 @@ $ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 
 - Keyboard teleop
   - srv : goal_task_space_path_from_present_position_only
+
+#### launch real robot
 
 ``` 
 $ roscore
@@ -48,10 +58,16 @@ open_manipulator_gazebo
 ---------------------------------------------------------------------------
 
 ### use ROS2
+#### install dependencies
 
 ```
 $ sudo apt install python3-rospkg
 $ sudo apt install ros-dashing-python* ros-dashing-rqt*
+```
+
+#### install packages and build
+
+```
 $ mkdir -p ~/robotis_ws/src/ && cd ~/robotis_ws/src
 $ git clone -b ros2 https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 $ git clone -b ros2 https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
