@@ -28,12 +28,18 @@ export PIPENV_VENV_IN_PROJECT=true
     - 今までvirtualenvとrequirements.txt使ってたのをPipenvに移行するときの参考になりそう
   - [Pipfile/Pipfile.lockの必要性 -requirements.txtを用いる手法と比較して-](https://qiita.com/miyashiiii/items/92e6f745a940c4df2ddd)
     - タイトル通り、Pipfileの良さがわかる（気がする）
+  - [2020 年の Python パッケージ管理ベストプラクティス](https://qiita.com/sk217/items/43c994640f4843a18dbe)
 
 ## 良さげなページのリンク
   - [Awesome Python on Qiita](https://qiita.com/hatai/items/34c91d4ee0b54bd7cb8b)
     - [document oriented database](https://github.com/msiemens/tinydb)
     - [postgres cli](https://github.com/dbcli/pgcli)
+  - [[Pythonコーディング規約]PEP8を読み解く](https://qiita.com/simonritchie/items/bb06a7521ae6560738a7)
+  - [Pythonでゼロからでもサービス開発・公開できる学習ロードマップ](https://qiita.com/Saku731/items/52a3bbacd002f26f408e)
+  - [Pythonで知ってるとドヤ顔ができるかもしれない文法をいくつか紹介します](https://qiita.com/picapica/items/3ac61761a63e4fd4b7b8)
   - [invoke](https://github.com/pyinvoke/invoke)
     - cliツール的なやつかな？
   - [Diagramsを使ってPythonでシステム構成図を描く](https://dev.classmethod.jp/articles/diagrams-introduction/)
+  - [pythonでjsonファイルからの値取得](https://qiita.com/kohbis/items/f3156f822bac330494fd)
   - [Python3 で JSON の読み書きをする方法（WebAPI にも対応） – サンプルコード付](https://www.craneto.co.jp/archives/1331/)
+  - [pythonのlogger奮闘記 ～簡単な使い方から複数ファイルを跨る使い方まで～](https://qiita.com/mimitaro/items/9fa7e054d60290d13bfc)
