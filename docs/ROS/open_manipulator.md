@@ -1,5 +1,6 @@
 ## Open Manipulator x
 ### use ROS1 (Melodic)
+  - [Open Manipulator X setup(kinetic)](http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_setup/#install-ros-packages)
 #### install dependencies
 
 ```
@@ -24,7 +25,9 @@ $ cd ~/catkin_ws/ && catkin build
 ```
 
 #### launch Gazebo simulator
-
+  - [Gazebo Simlation](http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_simulation/)
+  - [Operation](http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_operation/)
+  
 ```
 $ source ~/catkin_ws/devel/setup.bash
 $ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch 
