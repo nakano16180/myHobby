@@ -5,6 +5,11 @@
   - [gitのremote urlを変更する(レポジトリ移行時)](https://qiita.com/minoringo/items/917e325892733e0d606e)
   - [開発者のタスク管理をGitHubで行ったらうまくいった話](https://dev.classmethod.jp/articles/github-issue-driven-dev/)
 
+## 応用
+  - [Git-flowって何？](https://qiita.com/KosukeSone/items/514dd24828b485c69a05)
+  - [Git のコミットメッセージをテンプレート化する](https://qiita.com/kasaharu/items/cdb587d4d27d7608b063)
+  - [GitHubでフォーク元の差分を取り込む](https://qiita.com/hrtkmztn/items/3544c419a3f6fc3534fb)
+
 ## API
   - [File CRUD and repository statistics now available in the API](https://github.blog/2013-05-07-file-crud-and-repository-statistics-now-available-in-the-api/)
   - [GitHub REST API を使用する](https://maku77.github.io/git/github/github-rest-api.html)
