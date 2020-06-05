@@ -692,9 +692,43 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#use-ros1" class="md-nav__link">
-    use ROS1
+  <a href="#use-ros1-melodic" class="md-nav__link">
+    use ROS1 (Melodic)
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-dependencies" class="md-nav__link">
+    install dependencies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-packages-and-build" class="md-nav__link">
+    install packages and build
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launch-gazebo-simulator" class="md-nav__link">
+    launch Gazebo simulator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launch-real-robot" class="md-nav__link">
+    launch real robot
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -702,6 +736,26 @@
   <a href="#use-ros2" class="md-nav__link">
     use ROS2
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-dependencies_1" class="md-nav__link">
+    install dependencies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-packages-and-build_1" class="md-nav__link">
+    install packages and build
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -765,9 +819,43 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#use-ros1" class="md-nav__link">
-    use ROS1
+  <a href="#use-ros1-melodic" class="md-nav__link">
+    use ROS1 (Melodic)
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-dependencies" class="md-nav__link">
+    install dependencies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-packages-and-build" class="md-nav__link">
+    install packages and build
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launch-gazebo-simulator" class="md-nav__link">
+    launch Gazebo simulator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launch-real-robot" class="md-nav__link">
+    launch real robot
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -775,6 +863,26 @@
   <a href="#use-ros2" class="md-nav__link">
     use ROS2
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-dependencies_1" class="md-nav__link">
+    install dependencies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-packages-and-build_1" class="md-nav__link">
+    install packages and build
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -803,9 +911,17 @@
                   <h1>Open Manipilator</h1>
                 
                 <h2 id="open-manipulator-x">Open Manipulator x<a class="headerlink" href="#open-manipulator-x" title="Permanent link">#</a></h2>
-<h3 id="use-ros1">use ROS1<a class="headerlink" href="#use-ros1" title="Permanent link">#</a></h3>
+<h3 id="use-ros1-melodic">use ROS1 (Melodic)<a class="headerlink" href="#use-ros1-melodic" title="Permanent link">#</a></h3>
+<ul>
+<li><a href="http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_setup/#install-ros-packages">Open Manipulator X setup(kinetic)</a></li>
+</ul>
+<h4 id="install-dependencies">install dependencies<a class="headerlink" href="#install-dependencies" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ sudo apt install ros-melodic-controller-* ros-melodic-gazebo-* ros-melodic-moveit* ros-melodic-industrial-core 
-$ mkdir -p catkin_ws/src
+</code></pre></div>
+
+
+<h4 id="install-packages-and-build">install packages and build<a class="headerlink" href="#install-packages-and-build" title="Permanent link">#</a></h4>
+<div class="codehilite"><pre><span></span><code>$ mkdir -p catkin_ws/src
 $ <span class="nb">cd</span> ~/catkin_ws/src/
 $ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 $ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
@@ -820,6 +936,11 @@ $ <span class="nb">cd</span> ~/catkin_ws/ <span class="o">&amp;&amp;</span> catk
 </code></pre></div>
 
 
+<h4 id="launch-gazebo-simulator">launch Gazebo simulator<a class="headerlink" href="#launch-gazebo-simulator" title="Permanent link">#</a></h4>
+<ul>
+<li><a href="http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_simulation/">Gazebo Simlation</a></li>
+<li><a href="http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_operation/">Operation</a></li>
+</ul>
 <div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/catkin_ws/devel/setup.bash
 $ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch 
 
@@ -832,6 +953,7 @@ $ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 <li>Keyboard teleop</li>
 <li>srv : goal_task_space_path_from_present_position_only</li>
 </ul>
+<h4 id="launch-real-robot">launch real robot<a class="headerlink" href="#launch-real-robot" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ roscore
 $ rosrun open_manipulator_controller create_udev_rules
 
@@ -859,9 +981,14 @@ $ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 </ul>
 <hr />
 <h3 id="use-ros2">use ROS2<a class="headerlink" href="#use-ros2" title="Permanent link">#</a></h3>
+<h4 id="install-dependencies_1">install dependencies<a class="headerlink" href="#install-dependencies_1" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ sudo apt install python3-rospkg
 $ sudo apt install ros-dashing-python* ros-dashing-rqt*
-$ mkdir -p ~/robotis_ws/src/ <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/robotis_ws/src
+</code></pre></div>
+
+
+<h4 id="install-packages-and-build_1">install packages and build<a class="headerlink" href="#install-packages-and-build_1" title="Permanent link">#</a></h4>
+<div class="codehilite"><pre><span></span><code>$ mkdir -p ~/robotis_ws/src/ <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/robotis_ws/src
 $ git clone -b ros2 https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 $ git clone -b ros2 https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
 $ git clone -b ros2 https://github.com/ROBOTIS-GIT/open_manipulator.git 
@@ -909,7 +1036,7 @@ $ ros2 run open_manipulator_x_teleop open_manipulator_x_teleop_keyboard
                   <div class="md-source-date">
                     <small>
                       
-                        Last update: May 19, 2020
+                        Last update: June 5, 2020
                       
                     </small>
                   </div>
