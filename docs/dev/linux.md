@@ -15,6 +15,11 @@
     - タッチパッドのジェスチャーをカスタマイズできる
 
 ## その他
+  - [UbuntuでGPUマシーンを構築する](https://qiita.com/Brutus/items/2db051ec2bcfa726cc2f)
+  - [Ubuntu 18.04 をインストールしたらやることまとめ](https://qiita.com/hibi1104/items/d8417b86f62a50472e72)
+  - [Ubuntu 18.04 に Python3.7を入れる](https://qiita.com/rurou/items/edbb06538e81e01ec387)
+  - [aptコマンドチートシート](https://qiita.com/SUZUKI_Masaya/items/1fd9489e631c78e5b007)
+  - [「apt-get」はもう古い？新しい「apt」コマンドを使ったUbuntuのパッケージ管理](https://linuxfan.info/package-management-ubuntu)
   - [[Ubuntu][apt] /var/lib/apt/lists/lockが不正な状態になった場合の対応メモ](https://qiita.com/koara-local/items/e63b7e4ff3cea803bdea)
   - [curl コマンド 使い方メモ](https://qiita.com/yasuhiroki/items/a569d3371a66e365316f)
   - [bash によるオプション解析](https://qiita.com/b4b4r07/items/dcd6be0bb9c9185475bb)
