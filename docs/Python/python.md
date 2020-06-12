@@ -29,8 +29,13 @@ export PIPENV_VENV_IN_PROJECT=true
   - [Pipfile/Pipfile.lockの必要性 -requirements.txtを用いる手法と比較して-](https://qiita.com/miyashiiii/items/92e6f745a940c4df2ddd)
     - タイトル通り、Pipfileの良さがわかる（気がする）
   - [2020 年の Python パッケージ管理ベストプラクティス](https://qiita.com/sk217/items/43c994640f4843a18dbe)
+  - [Pipenvことはじめ](https://qiita.com/shinshin86/items/e11c1124e3e2e74556b8)
+  - [Pipenvの進んだ使い方](https://pipenv-ja.readthedocs.io/ja/translate-ja/advanced.html)
 
 ## 良さげなページのリンク
+  - [pipでインストールしたパッケージの場所を調べる](https://qiita.com/t-fuku/items/83c721ed7107ffe5d8ff)
+  - [【Ubuntu】pip install –upgrade pip コマンドを実行すると、その後、ImportError: cannot import name main というエラーが発生する場合の対応方法](https://laboradian.com/cannot-import-name-main-when-upgrading-pip/)
+  - [pipを直で使うのは非推奨っぽい？](https://qiita.com/taro-hida/items/16006f3622551e231a2e)
   - [Awesome Python on Qiita](https://qiita.com/hatai/items/34c91d4ee0b54bd7cb8b)
     - [document oriented database](https://github.com/msiemens/tinydb)
     - [postgres cli](https://github.com/dbcli/pgcli)
