@@ -22,6 +22,15 @@
 - データベース
   - [[Sequelize] Sequelize の導入と簡単な使い方](https://qiita.com/ksh-fthr/items/7bc66911fd5c7506deeb)
   - [ExpressにSequelizeを導入し、PostgreSQLを使用する](https://polymeism.hatenablog.com/entry/2017/11/05/211906)
+  - [Sequelize ORMからdataValuesのみを取得します](https://www.it-swarm.dev/ja/node.js/sequelize-orm%E3%81%8B%E3%82%89datavalues%E3%81%AE%E3%81%BF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%97%E3%81%BE%E3%81%99/834106395/)
+- Auth
+  - [Passport](http://knimon-software.github.io/www.passportjs.org/)
+  - [Getting started with authentication in Node.js with Passport and PostgresQL](https://medium.com/@timtamimi/getting-started-with-authentication-in-node-js-with-passport-and-postgresql-2219664b568c)
+  - [timtamimi/node.js-passport.js-template](https://github.com/timtamimi/node.js-passport.js-template)
+
+## Docker
+  - [Node.js Web アプリケーションを Docker 化する](https://nodejs.org/ja/docs/guides/nodejs-docker-webapp/)
+  - [How to stop running node in docker](https://stackoverflow.com/questions/36637912/how-to-stop-running-node-in-docker)
 
 ## 便利ツール
   - [Postman](https://www.webprofessional.jp/master-api-workflow-postman/)
