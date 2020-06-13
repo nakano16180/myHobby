@@ -33,9 +33,19 @@ export PIPENV_VENV_IN_PROJECT=true
   - [Pipenvの進んだ使い方](https://pipenv-ja.readthedocs.io/ja/translate-ja/advanced.html)
 
 ## 良さげなページのリンク
+### python環境
   - [pipでインストールしたパッケージの場所を調べる](https://qiita.com/t-fuku/items/83c721ed7107ffe5d8ff)
   - [【Ubuntu】pip install –upgrade pip コマンドを実行すると、その後、ImportError: cannot import name main というエラーが発生する場合の対応方法](https://laboradian.com/cannot-import-name-main-when-upgrading-pip/)
   - [pipを直で使うのは非推奨っぽい？](https://qiita.com/taro-hida/items/16006f3622551e231a2e)
+
+### 基本
+  - [Pythonでディレクトリ（フォルダ）を作成するmkdir, makedirs](https://note.nkmk.me/python-os-mkdir-makedirs/)
+  - [Python, pathlibでディレクトリ（フォルダ）の作成・削除](https://note.nkmk.me/python-pathlib-mkdir-rmdir/)
+  - [pythonでjsonファイルからの値取得](https://qiita.com/kohbis/items/f3156f822bac330494fd)
+  - [Python3 で JSON の読み書きをする方法（WebAPI にも対応） – サンプルコード付](https://www.craneto.co.jp/archives/1331/)
+  - [pythonのlogger奮闘記 ～簡単な使い方から複数ファイルを跨る使い方まで～](https://qiita.com/mimitaro/items/9fa7e054d60290d13bfc)
+
+### 応用
   - [Awesome Python on Qiita](https://qiita.com/hatai/items/34c91d4ee0b54bd7cb8b)
     - [document oriented database](https://github.com/msiemens/tinydb)
     - [postgres cli](https://github.com/dbcli/pgcli)
@@ -45,6 +55,4 @@ export PIPENV_VENV_IN_PROJECT=true
   - [invoke](https://github.com/pyinvoke/invoke)
     - cliツール的なやつかな？
   - [Diagramsを使ってPythonでシステム構成図を描く](https://dev.classmethod.jp/articles/diagrams-introduction/)
-  - [pythonでjsonファイルからの値取得](https://qiita.com/kohbis/items/f3156f822bac330494fd)
-  - [Python3 で JSON の読み書きをする方法（WebAPI にも対応） – サンプルコード付](https://www.craneto.co.jp/archives/1331/)
-  - [pythonのlogger奮闘記 ～簡単な使い方から複数ファイルを跨る使い方まで～](https://qiita.com/mimitaro/items/9fa7e054d60290d13bfc)
+  - [Diagramsを使ってsystem architecture図をアップデートし続ける](https://blog.hatappi.me/entry/2020/02/27/224639)

@@ -1,7 +1,9 @@
 ## postgres
 - [python3でDBにデータを保存する](https://qiita.com/yokotate/items/cec2dfcdfe88e37b82dd)
 - [PostgreSQLをPythonからpsycopg2を使っていじる](https://tdoc.info/blog/2012/12/05/psycopg2.html)
+- [psycopg2 でよくやる操作まとめ](https://qiita.com/hoto17296/items/0ca1569d6fa54c7c4732)
 - [pgcli](https://github.com/dbcli/pgcli)
+  - Postgres CLI with autocompletion and syntax highlighting
 
 ## sqlite
 - [sqlite3でテーブル一覧取得](https://crimnut.hateblo.jp/entry/2018/04/17/172709)
@@ -18,3 +20,4 @@
     - 同じ内容のデータベースを違うソフトで構築したいときの参考
   - [pythonで簡単に表を標準出力する方法](https://hacknote.jp/archives/51659/)
     - データベース操作の出力を表形式で整形できる
+  - [CLI上でtableを綺麗に見たくて各言語のtable表示について調べた](https://vaaaaaanquish.hatenablog.com/entry/2018/05/03/231201)
