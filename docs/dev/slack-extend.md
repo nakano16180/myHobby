@@ -5,6 +5,8 @@
     - Webhooksを受け取るサーバーをLalavelで構築し、Herokuにデプロイ（Masoniteで代用できるかな）
   - [Slackのslash command + Googleスプレッドシート + GASで貸出帳を作った](https://note.com/yuickomori/n/nb0ecbff77056)
   - [slackで「投稿ルールが守られない問題」を自作のスラッシュコマンドで解決する(設定編)](https://qiita.com/marogoma/items/e3003564c1b8b7b09e29)
+  - [Slack Appを無料で運用する（Netlify Functions）](https://qiita.com/hide2018/items/7734dbdcfb80b1b348b0)
+    - 無料かつクレジットカード登録なしでAWS Lambdaが使えるNetlify Functionsでslash command
 
 ### Bot
   - [[Slack]Botkitをherokuの無料プランで動かす方法](https://qiita.com/biga816/items/148a1156cd8b1a964b91)
