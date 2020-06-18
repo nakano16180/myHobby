@@ -14,6 +14,11 @@
   - [iberianpig/fusuma](https://github.com/iberianpig/fusuma)
     - タッチパッドのジェスチャーをカスタマイズできる
 
+## Editor
+  - VS Code
+    - [vscodeで使ってる拡張機能](https://scrapbox.io/yuiseki/vscode%E3%81%A7%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%8B%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD)
+    - [僕がおすすめするVSCodeのプラグインまとめ](https://note.com/tak_dcxi/n/n209d230e9ad7)
+
 ## その他
   - [UbuntuでGPUマシーンを構築する](https://qiita.com/Brutus/items/2db051ec2bcfa726cc2f)
   - [Ubuntu 18.04 をインストールしたらやることまとめ](https://qiita.com/hibi1104/items/d8417b86f62a50472e72)
