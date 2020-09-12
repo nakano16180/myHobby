@@ -710,22 +710,23 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#install-ros_ign" class="md-nav__link">
+    install ros_ign
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#source" class="md-nav__link">
     source
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     example
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -778,22 +779,23 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#install-ros_ign" class="md-nav__link">
+    install ros_ign
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#source" class="md-nav__link">
     source
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     example
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -819,38 +821,51 @@
                 <h2 id="ignition">ignition<a class="headerlink" href="#ignition" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="https://ignitionrobotics.org/docs">ドキュメントページ</a></li>
-<li>次世代Gazebo</li>
+<li>次世代 Gazebo</li>
 </ul>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">#</a></h2>
 <ul>
-<li><a href="https://products.rt-net.jp/micromouse/archives/8764">ここ</a>が分かりやすい</li>
 <li><a href="https://ignitionrobotics.org/docs/citadel">公式のインストールドキュメント</a></li>
-<li><a href="https://ignitionrobotics.org/docs/citadel/ros_integration">ROS1との連携</a></li>
-<li><a href="https://ignitionrobotics.org/docs/citadel/comparison">Gazeboとの比較</a><ul>
-<li>まだ移行が進んでないプラグインもわりとある</li>
+<li><a href="https://ignitionrobotics.org/docs/citadel/ros_integration">ROS1 との連携</a></li>
 </ul>
-</li>
-</ul>
+<h2 id="install-ros_ign">install ros_ign<a class="headerlink" href="#install-ros_ign" title="Permanent link">#</a></h2>
+<div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/catkin_ws/devel/setup.bash
+$ <span class="nb">cd</span> ~/catkin_ws/src/
+$ git clone https://github.com/osrf/ros_ign.git -b melodic
+
+$ <span class="nb">export</span> <span class="nv">IGNITION_VERSION</span><span class="o">=</span>citadel
+$ rosdep install --from-paths src -i -y --rosdistro melodic <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-gazebo2 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-gazebo3 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-msgs4 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-msgs5 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-rendering2 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-rendering3 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-sensors2 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-sensors3 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-transport7 <span class="se">\</span>
+  --skip-keys<span class="o">=</span>ignition-transport8
+
+$ <span class="nb">source</span> ~/catkin_ws/devel/setup.bash
+$ <span class="nb">cd</span> ~/catkin_ws/ <span class="o">&amp;&amp;</span> catkin build
+$ roslaunch ros_ign_gazebo_demos diff_drive.launch
+</code></pre></div>
+
+
 <h2 id="source">source<a class="headerlink" href="#source" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="https://github.com/ignitionrobotics/">Ignition Robotics(github)</a></li>
-<li><a href="https://github.com/ignitionrobotics/ign-gazebo">公式リポジトリ</a><ul>
-<li><a href="https://github.com/ignitionrobotics/ign-gazebo/tree/master/include/ignition/gazebo/components">Ignitionで使えるプラグイン1</a></li>
-<li><a href="https://github.com/ignitionrobotics/ign-gazebo/tree/master/src/systems">Ignitionで使えるプラグイン2</a></li>
+<li><a href="https://github.com/ignitionrobotics/ign-gazebo">公式リポジトリ</a></li>
+<li><a href="https://github.com/ignitionrobotics/ign-gazebo/tree/master/include/ignition/gazebo/components">Ignition で使えるプラグイン 1</a></li>
+<li><a href="https://github.com/ignitionrobotics/ign-gazebo/tree/master/src/systems">Ignition で使えるプラグイン 2</a></li>
 <li><a href="https://github.com/ignitionrobotics/ign-gazebo/tree/master/examples/worlds">ign-gazebo/example/worlds</a></li>
 </ul>
-</li>
-</ul>
-<h3 id="example">example<a class="headerlink" href="#example" title="Permanent link">#</a></h3>
+<h2 id="example">example<a class="headerlink" href="#example" title="Permanent link">#</a></h2>
 <ul>
-<li><a href="https://products.rt-net.jp/micromouse/archives/8833">Ignition+ROS Melodicで走らせるRaspberry Pi Mouse</a><ul>
+<li><a href="https://products.rt-net.jp/micromouse/archives/8833">Ignition+ROS Melodic で走らせる Raspberry Pi Mouse</a></li>
 <li><a href="https://github.com/Tiryoh/ros_ign_gazebo_raspimouse">ソースリポジトリ</a></li>
-</ul>
-</li>
-<li><a href="https://bitbucket.org/ignitionrobotics/ign-gazebo/src/default/examples/worlds/diff_drive.sdf">example/worlds/diff_dlive.sdf</a><ul>
+<li><a href="https://bitbucket.org/ignitionrobotics/ign-gazebo/src/default/examples/worlds/diff_drive.sdf">example/worlds/diff_dlive.sdf</a></li>
 <li><a href="https://bitbucket.org/ignitionrobotics/ign-gazebo/src/default/src/systems/diff_drive/">プラグイン</a></li>
-</ul>
-</li>
 </ul>
                 
                   
@@ -861,7 +876,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        Last update: September 10, 2020
+                        Last update: September 12, 2020
                       
                     </small>
                   </div>
