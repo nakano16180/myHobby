@@ -1,6 +1,6 @@
 site_name: My Docs
-site_description: '自分のページ'
-site_author: 'nakano16180'
+site_description: "自分のページ"
+site_author: "nakano16180"
 site_url: https://nakano16180.github.io/myHobby/
 
 # Repository
@@ -9,35 +9,35 @@ repo_url: https://github.com/nakano16180/myHobby
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright (c) 2020'
+copyright: "Copyright (c) 2020"
 
 # Documentation and theme
-docs_dir: 'docs'
-theme: 'material'
+docs_dir: "docs"
+theme: "material"
 
 # Options
 extra:
   palette:
-    primary: 'Light Blue'
-    accent: 'Orange'
+    primary: "Light Blue"
+    accent: "Orange"
   font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
+    text: "Roboto"
+    code: "Roboto Mono"
   i18n:
-    prev: 'Previous'
-    next: 'Next'
+    prev: "Previous"
+    next: "Next"
   social:
-  - type: github
-    link: https://github.com/nakano16180
-  - type: twitter
-    link: https://twitter.com/newton112358
+    - type: github
+      link: https://github.com/nakano16180
+    - type: twitter
+      link: https://twitter.com/newton112358
 
 # Extensions
 markdown_extensions:
   - codehilite:
   - admonition:
   - toc:
-      permalink: '#'
+      permalink: "#"
 
 plugins:
   - search
@@ -48,31 +48,32 @@ nav:
   - Introduction: index.md
   - About Me: about.md
   - 成果物: ./dev/deliverable.md
-  - ドキュメント: ./dev/document.md
-  - 開発環境:
-    - Linux: ./dev/linux.md
-    - Git: ./dev/git.md
-    - Docker: ./dev/docker.md
-    - Slack: ./dev/slack-extend.md
-  - インフラ:
-    - AWS:
-      - docker-lambda: ./dev/docker-lambda.md
-      - Minio: ./dev/minio.md
-  - Nodejs:
-    - nodejs: ./Nodejs/nodejs.md
-    - API server: ./Nodejs/API.md
-  - Python:
-    - python: ./Python/python.md
-    - DB: ./Python/database.md
-    - Flask: ./Python/flask.md
-    - Masonite: ./Python/masonite.md
-  - ML:
-    - Tools: ./ML/ml-tools.md
-  - RL:
-    - Pythonで学ぶ強化学習: ./RL/python_RL.md
-    - Gym Ignition: ./RL/gym_ignition.md
-  - ROS:
-    - ROS: ./ROS/ros.md
-    - Turtlebot: ./ROS/turtlebot.md
-    - Open Manipilator: ./ROS/open_manipulator.md
-    - Ignition: ./ROS/ignition.md
+  - 学習記録:
+      - ドキュメント: ./dev/document.md
+      - 開発環境:
+          - Linux: ./dev/linux.md
+          - Git: ./dev/git.md
+          - Docker: ./dev/docker.md
+          - Slack: ./dev/slack-extend.md
+      - インフラ:
+          - AWS:
+              - docker-lambda: ./dev/docker-lambda.md
+              - Minio: ./dev/minio.md
+      - Nodejs:
+          - nodejs: ./Nodejs/nodejs.md
+          - API server: ./Nodejs/API.md
+      - Python:
+          - python: ./Python/python.md
+          - DB: ./Python/database.md
+          - Flask: ./Python/flask.md
+          - Masonite: ./Python/masonite.md
+      - ML:
+          - Tools: ./ML/ml-tools.md
+      - RL:
+          - Pythonで学ぶ強化学習: ./RL/python_RL.md
+          - Gym Ignition: ./RL/gym_ignition.md
+      - ROS:
+          - ROS: ./ROS/ros.md
+          - Turtlebot: ./ROS/turtlebot.md
+          - Open Manipilator: ./ROS/open_manipulator.md
+          - Ignition: ./ROS/ignition.md
