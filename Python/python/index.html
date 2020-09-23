@@ -533,13 +533,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#virtualenv" class="md-nav__link">
-    virtualenv
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#pipenv" class="md-nav__link">
     Pipenv
   </a>
@@ -566,12 +559,7 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     良さげなページのリンク
   </a>
@@ -581,7 +569,7 @@
         
           <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
-    python環境
+    python 環境
   </a>
   
 </li>
@@ -597,6 +585,11 @@
   <a href="#_6" class="md-nav__link">
     応用
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -845,13 +838,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#virtualenv" class="md-nav__link">
-    virtualenv
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#pipenv" class="md-nav__link">
     Pipenv
   </a>
@@ -878,12 +864,7 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     良さげなページのリンク
   </a>
@@ -893,7 +874,7 @@
         
           <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
-    python環境
+    python 環境
   </a>
   
 </li>
@@ -909,6 +890,11 @@
   <a href="#_6" class="md-nav__link">
     応用
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -937,11 +923,6 @@
                   <h1>python</h1>
                 
                 <h2 id="_1">環境構築<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
-<h3 id="virtualenv">virtualenv<a class="headerlink" href="#virtualenv" title="Permanent link">#</a></h3>
-<ul>
-<li><a href="https://maku77.github.io/python/env/virtualenv.html">Python の実行環境を切り替えて使用する (virtualenv)</a></li>
-<li><a href="https://hibiki-press.tech/learn_prog/python/virtualenv/4545">【Python】Virtualenvを使った仮想環境の構築</a></li>
-</ul>
 <h3 id="pipenv">Pipenv<a class="headerlink" href="#pipenv" title="Permanent link">#</a></h3>
 <ul>
 <li><a href="https://github.com/pypa/pipenv">公式リポジトリ</a></li>
@@ -951,70 +932,51 @@
 </code></pre></div>
 
 
-<p>bashrcに以下を追加</p>
+<p>bashrc に以下を追加</p>
 <div class="codehilite"><pre><span></span><code><span class="err">export PIPENV_VENV_IN_PROJECT=true</span>
 </code></pre></div>
 
 
 <h4 id="_3">参考リンク<a class="headerlink" href="#_3" title="Permanent link">#</a></h4>
 <ul>
-<li><a href="https://qiita.com/KRiver1/items/c1788e616b77a9bad4dd">pyenv、pyenv-virtualenv、venv、Anaconda、Pipenv。私はPipenvを使う。</a><ul>
-<li>よく聞く仮想環境のツールと比較されていて良い</li>
+<li><a href="https://narito.ninja/blog/detail/58/">Python で、Pipenv を使う</a></li>
+<li>python 公式が正式に推薦しているツールらしい</li>
+<li><a href="https://qiita.com/shinshin86/items/e11c1124e3e2e74556b8">Pipenv ことはじめ</a></li>
+<li><a href="https://kapiecii.hatenablog.com/entry/2019/01/26/220000">複数人で使う python 製ツールの実行環境構築に pipenv を使ってみたら、とても便利だった</a></li>
+<li><a href="https://dev.classmethod.jp/articles/pipfile-scripts-shortcuts/">【小ネタ】Pipfile にスクリプトショートカットを作成する</a></li>
+<li><a href="https://pipenv-ja.readthedocs.io/ja/translate-ja/advanced.html">Pipenv の進んだ使い方</a></li>
+<li><a href="https://qiita.com/kawasin73/items/3e58fc8a14af66ab7204">Pipenv と Docker を使った開発環境のベストプラクティス</a></li>
+<li>Docker で固めてるから他との依存含め環境を隔離できる</li>
+<li><a href="https://www.kabuku.co.jp/developers/python-pipenv-graph">きたない requirements.txt から Pipenv への移行</a></li>
+<li>今まで virtualenv と requirements.txt 使ってたのを Pipenv に移行するときの参考になりそう</li>
 </ul>
-</li>
-<li><a href="https://narito.ninja/blog/detail/58/">Pythonで、Pipenvを使う</a><ul>
-<li>python公式が正式に推薦しているツールらしい</li>
-</ul>
-</li>
-<li><a href="https://kapiecii.hatenablog.com/entry/2019/01/26/220000">複数人で使うpython製ツールの実行環境構築にpipenvを使ってみたら、とても便利だった</a></li>
-<li><a href="https://dev.classmethod.jp/articles/pipfile-scripts-shortcuts/">【小ネタ】Pipfileにスクリプトショートカットを作成する</a></li>
-<li><a href="https://qiita.com/kawasin73/items/3e58fc8a14af66ab7204">Pipenv と Docker を使った開発環境のベストプラクティス</a><ul>
-<li>Dockerで固めてるから他との依存含め環境を隔離できる</li>
-</ul>
-</li>
-<li><a href="https://www.kabuku.co.jp/developers/python-pipenv-graph">きたない requirements.txt から Pipenv への移行</a><ul>
-<li>今までvirtualenvとrequirements.txt使ってたのをPipenvに移行するときの参考になりそう</li>
-</ul>
-</li>
-<li><a href="https://qiita.com/miyashiiii/items/92e6f745a940c4df2ddd">Pipfile/Pipfile.lockの必要性 -requirements.txtを用いる手法と比較して-</a><ul>
-<li>タイトル通り、Pipfileの良さがわかる（気がする）</li>
-</ul>
-</li>
-<li><a href="https://qiita.com/sk217/items/43c994640f4843a18dbe">2020 年の Python パッケージ管理ベストプラクティス</a></li>
-<li><a href="https://qiita.com/shinshin86/items/e11c1124e3e2e74556b8">Pipenvことはじめ</a></li>
-<li><a href="https://pipenv-ja.readthedocs.io/ja/translate-ja/advanced.html">Pipenvの進んだ使い方</a></li>
-</ul>
-<h2 id="_4">良さげなページのリンク<a class="headerlink" href="#_4" title="Permanent link">#</a></h2>
-<h3 id="python">python環境<a class="headerlink" href="#python" title="Permanent link">#</a></h3>
+<h3 id="_4">良さげなページのリンク<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
+<h4 id="python">python 環境<a class="headerlink" href="#python" title="Permanent link">#</a></h4>
 <ul>
-<li><a href="https://qiita.com/t-fuku/items/83c721ed7107ffe5d8ff">pipでインストールしたパッケージの場所を調べる</a></li>
+<li><a href="https://qiita.com/t-fuku/items/83c721ed7107ffe5d8ff">pip でインストールしたパッケージの場所を調べる</a></li>
 <li><a href="https://laboradian.com/cannot-import-name-main-when-upgrading-pip/">【Ubuntu】pip install –upgrade pip コマンドを実行すると、その後、ImportError: cannot import name main というエラーが発生する場合の対応方法</a></li>
-<li><a href="https://qiita.com/taro-hida/items/16006f3622551e231a2e">pipを直で使うのは非推奨っぽい？</a></li>
+<li><a href="https://qiita.com/taro-hida/items/16006f3622551e231a2e">pip を直で使うのは非推奨っぽい？</a></li>
 </ul>
-<h3 id="_5">基本<a class="headerlink" href="#_5" title="Permanent link">#</a></h3>
+<h4 id="_5">基本<a class="headerlink" href="#_5" title="Permanent link">#</a></h4>
 <ul>
-<li><a href="https://note.nkmk.me/python-os-mkdir-makedirs/">Pythonでディレクトリ（フォルダ）を作成するmkdir, makedirs</a></li>
-<li><a href="https://note.nkmk.me/python-pathlib-mkdir-rmdir/">Python, pathlibでディレクトリ（フォルダ）の作成・削除</a></li>
-<li><a href="https://qiita.com/kohbis/items/f3156f822bac330494fd">pythonでjsonファイルからの値取得</a></li>
+<li><a href="https://note.nkmk.me/python-os-mkdir-makedirs/">Python でディレクトリ（フォルダ）を作成する mkdir, makedirs</a></li>
+<li><a href="https://note.nkmk.me/python-pathlib-mkdir-rmdir/">Python, pathlib でディレクトリ（フォルダ）の作成・削除</a></li>
+<li><a href="https://qiita.com/kohbis/items/f3156f822bac330494fd">python で json ファイルからの値取得</a></li>
 <li><a href="https://www.craneto.co.jp/archives/1331/">Python3 で JSON の読み書きをする方法（WebAPI にも対応） – サンプルコード付</a></li>
-<li><a href="https://qiita.com/mimitaro/items/9fa7e054d60290d13bfc">pythonのlogger奮闘記 ～簡単な使い方から複数ファイルを跨る使い方まで～</a></li>
+<li><a href="https://qiita.com/mimitaro/items/9fa7e054d60290d13bfc">python の logger 奮闘記 ～簡単な使い方から複数ファイルを跨る使い方まで～</a></li>
 </ul>
-<h3 id="_6">応用<a class="headerlink" href="#_6" title="Permanent link">#</a></h3>
+<h4 id="_6">応用<a class="headerlink" href="#_6" title="Permanent link">#</a></h4>
 <ul>
-<li><a href="https://qiita.com/hatai/items/34c91d4ee0b54bd7cb8b">Awesome Python on Qiita</a><ul>
+<li><a href="https://qiita.com/hatai/items/34c91d4ee0b54bd7cb8b">Awesome Python on Qiita</a></li>
 <li><a href="https://github.com/msiemens/tinydb">document oriented database</a></li>
 <li><a href="https://github.com/dbcli/pgcli">postgres cli</a></li>
-</ul>
-</li>
-<li><a href="https://qiita.com/simonritchie/items/bb06a7521ae6560738a7">[Pythonコーディング規約]PEP8を読み解く</a></li>
-<li><a href="https://qiita.com/Saku731/items/52a3bbacd002f26f408e">Pythonでゼロからでもサービス開発・公開できる学習ロードマップ</a></li>
-<li><a href="https://qiita.com/picapica/items/3ac61761a63e4fd4b7b8">Pythonで知ってるとドヤ顔ができるかもしれない文法をいくつか紹介します</a></li>
-<li><a href="https://github.com/pyinvoke/invoke">invoke</a><ul>
-<li>cliツール的なやつかな？</li>
-</ul>
-</li>
-<li><a href="https://dev.classmethod.jp/articles/diagrams-introduction/">Diagramsを使ってPythonでシステム構成図を描く</a></li>
-<li><a href="https://blog.hatappi.me/entry/2020/02/27/224639">Diagramsを使ってsystem architecture図をアップデートし続ける</a></li>
+<li><a href="https://qiita.com/simonritchie/items/bb06a7521ae6560738a7">[Python コーディング規約]PEP8 を読み解く</a></li>
+<li><a href="https://qiita.com/Saku731/items/52a3bbacd002f26f408e">Python でゼロからでもサービス開発・公開できる学習ロードマップ</a></li>
+<li><a href="https://qiita.com/picapica/items/3ac61761a63e4fd4b7b8">Python で知ってるとドヤ顔ができるかもしれない文法をいくつか紹介します</a></li>
+<li><a href="https://github.com/pyinvoke/invoke">invoke</a></li>
+<li>cli ツール的なやつかな？</li>
+<li><a href="https://dev.classmethod.jp/articles/diagrams-introduction/">Diagrams を使って Python でシステム構成図を描く</a></li>
+<li><a href="https://blog.hatappi.me/entry/2020/02/27/224639">Diagrams を使って system architecture 図をアップデートし続ける</a></li>
 </ul>
                 
                   
@@ -1025,7 +987,7 @@
                   <div class="md-source-date">
                     <small>
                       
-                        Last update: September 15, 2020
+                        Last update: September 23, 2020
                       
                     </small>
                   </div>
