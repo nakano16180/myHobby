@@ -59,14 +59,14 @@ nav:
           - AWS:
               - docker-lambda: ./dev/docker-lambda.md
               - Minio: ./dev/minio.md
-      - Nodejs:
-          - nodejs: ./Nodejs/nodejs.md
-          - API server: ./Nodejs/API.md
       - Python:
           - python: ./Python/python.md
           - DB: ./Python/database.md
           - Flask: ./Python/flask.md
           - Masonite: ./Python/masonite.md
+      - Nodejs:
+          - nodejs: ./Nodejs/nodejs.md
+          - API server: ./Nodejs/API.md
       - ML:
           - Tools: ./ML/ml-tools.md
       - RL:
