@@ -1,18 +1,16 @@
 ## About Me
 
-- 怠惰
-- 飽き性
-- 楽したい
-- 何もしたくない
-- 「楽したい」、「何もしたくない」を叶えてくれる生活を自分で作りたい
+### Links
+  - [Github](https://github.com/nakano16180)
+  - [Qiita](https://qiita.com/KN_Apple)
+  - [Twitter](https://twitter.com/newton112358)
 
-## Links
+### スキル
+  - C/C++, Python, Javascript, SQL
+  - Git, Docker, Netlify, Heroku
+  - Linux(Ubuntu), ROS, Flask, Express, React
 
-- [Qiita](https://qiita.com/KN_Apple)
-- [GitHub](https://github.com/nakano16180)
-- [Twitter](https://twitter.com/newton112358)
-
-## 略歴
+### 略歴
 
 - 2019/10 Maritime RobotX Challenge 日本チーム OUXT Polaris 参加
 - 2019/08 RoboCup JapanOpen 2019 @Home Education Challenge 　 2 位
