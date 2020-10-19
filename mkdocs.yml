@@ -59,6 +59,7 @@ nav:
           - AWS:
               - docker-lambda: ./dev/docker-lambda.md
               - Minio: ./dev/minio.md
+          - Kubernetes: ./dev/kubernetes.md
       - Python:
           - python: ./Python/python.md
           - DB: ./Python/database.md
@@ -67,6 +68,7 @@ nav:
       - Nodejs:
           - nodejs: ./Nodejs/nodejs.md
           - API server: ./Nodejs/API.md
+          - React: ./Nodejs/React.md
       - ML:
           - Tools: ./ML/ml-tools.md
       - RL:
