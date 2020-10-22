@@ -47,18 +47,18 @@ plugins:
 nav:
   - Introduction: index.md
   - About Me: about.md
-  - 成果物: ./dev/deliverable.md
+  - 成果物: deliverable.md
   - 学習記録:
       - ドキュメント: ./dev/document.md
       - 開発環境:
-          - Linux: ./dev/linux.md
-          - Git: ./dev/git.md
-          - Docker: ./dev/docker.md
-          - Slack: ./dev/slack-extend.md
+          - Linux: ./dev/env/linux.md
+          - Git: ./dev/env/git.md
+          - Docker: ./dev/env/docker.md
+          - Slack: ./dev/env/slack-extend.md
       - インフラ:
           - AWS:
-              - docker-lambda: ./dev/docker-lambda.md
               - Minio: ./dev/minio.md
+              - docker-lambda: ./dev/docker-lambda.md
           - Kubernetes: ./dev/kubernetes.md
       - Python:
           - python: ./Python/python.md
@@ -71,11 +71,11 @@ nav:
           - React: ./Nodejs/React.md
       - ML:
           - Tools: ./ML/ml-tools.md
-      - RL:
-          - Pythonで学ぶ強化学習: ./RL/python_RL.md
-          - Gym Ignition: ./RL/gym_ignition.md
+          - RL:
+              - Pythonで学ぶ強化学習: ./ML/RL/python_RL.md
+              - Gym Ignition: ./ML/RL/gym_ignition.md
       - ROS:
           - ROS: ./ROS/ros.md
+          - Ignition: ./ROS/ignition.md
           - Turtlebot: ./ROS/turtlebot.md
           - Open Manipilator: ./ROS/open_manipulator.md
-          - Ignition: ./ROS/ignition.md
