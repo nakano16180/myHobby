@@ -56,10 +56,9 @@ nav:
           - Docker: ./dev/env/docker.md
           - Slack: ./dev/env/slack-extend.md
       - インフラ:
-          - AWS:
-              - Minio: ./dev/minio.md
-              - docker-lambda: ./dev/docker-lambda.md
-          - Kubernetes: ./dev/kubernetes.md
+          - Minio: ./dev/infra/minio.md
+          - docker-lambda: ./dev/infra/docker-lambda.md
+          - Kubernetes: ./dev/infra/kubernetes.md
       - Python:
           - python: ./Python/python.md
           - DB: ./Python/database.md
