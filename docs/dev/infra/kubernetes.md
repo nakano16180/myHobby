@@ -1,0 +1,11 @@
+## Kubernetes
+  - [数時間で完全理解！わりとゴツいKubernetesハンズオン！！ - Qiita](https://qiita.com/Kta-M/items/ce475c0063d3d3f36d5d)
+    - 「純粋にKubernetesを勉強したいだけならGKEのほうがオススメ」らしい
+    - コンテナ管理をいいかんじにやってくれるというのがベースアイデア
+    - サンプルアプリケーションでフロントとRedisだけの構成ができる
+  - [Docker しか知らない人のための Kubernetes 入門 - Qiita](https://qiita.com/jintz/items/cd665e559d6ba369ab93)
+  - [初心者が流れで学ぶDocker/Kubernetes超入門 – さんぽしの散歩記](https://sanposhiho.com/posts/2020-03-08-qiita-fc8082f3d303c04cca2e/)
+  - [kind(Kubernetes in Docker)で学習を始めるまで - Qiita](https://qiita.com/sourjp/items/281d2189516823950291)
+  - [もし今1からKubernetesを勉強するとしたらどうやって勉強するか - 腹は減る](https://blux.hatenablog.com/entry/2020/07/30/235040)
+  - [Docker Compose利用者から見た Kubernetes 開発環境構築入門 / introduction to kubernetes for docker compose user - Speaker Deck](https://speakerdeck.com/kkoudev/introduction-to-kubernetes-for-docker-compose-user)
+    - docker-composeによる問題点
