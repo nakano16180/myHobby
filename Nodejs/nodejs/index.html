@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-4.6.3">
     
     
       
@@ -885,12 +885,10 @@
 <div class="codehilite"><pre><span></span><code>$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh <span class="p">|</span> bash 
 </code></pre></div>
 
-
 <p>最新版のnodejsをインストール</p>
 <div class="codehilite"><pre><span></span><code>$ nvm install --lts --latest-npm  
 $ nvm <span class="nb">alias</span> default lts/* 
 </code></pre></div>
-
 
 <h3 id="direnv-nvm">direnv + nvm<a class="headerlink" href="#direnv-nvm" title="Permanent link">#</a></h3>
 <p>複数プロジェクトでnodejsを使っていて、それぞれバージョンが違うことがあると切り替えがめんどくさくなる。<br />
@@ -902,19 +900,16 @@ $ sudo apt install golang-go
 $ go version  
 </code></pre></div>
 
-
 <p>次に、direnvをインストール</p>
 <div class="codehilite"><pre><span></span><code>$ git clone https://github.com/direnv/direnv  
 $ <span class="nb">cd</span> direnv/  
 $ sudo make install  
 </code></pre></div>
 
-
 <p>その後、bashrcに以下を追記</p>
-<div class="codehilite"><pre><span></span><code><span class="err">export EDITOR=gedit  </span>
-<span class="err">eval &quot;$(direnv hook bash)&quot;  </span>
+<div class="codehilite"><pre><span></span><code><span class="k">export</span> <span class="n">EDITOR</span><span class="o">=</span><span class="n">gedit</span>  
+<span class="n">eval</span> <span class="s2">&quot;$(direnv hook bash)&quot;</span>  
 </code></pre></div>
-
 
 <h3 id="_2">使い方<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
 <p>プロジェクトのルートディレクトリで以下のコマンドを打つと .envrcファイルが作成される。<br />
@@ -922,14 +917,12 @@ $ sudo make install
 <div class="codehilite"><pre><span></span><code>$ direnv edit .
 </code></pre></div>
 
-
 <p>nodeのバージョン切り替えを行うためには .nvmrcファイルを作成し、使用したいnodeのバージョンを記述する。</p>
 <p>あとは先ほどの .envrcファイルに以下を追記</p>
-<div class="codehilite"><pre><span></span><code><span class="err">nvmrc=~/.nvm/nvm.sh  </span>
-<span class="err">source $nvmrc  </span>
-<span class="err">nvm use  </span>
+<div class="codehilite"><pre><span></span><code>nvmrc=~/.nvm/nvm.sh  
+source $nvmrc  
+nvm use  
 </code></pre></div>
-
 
 <p>これで完了</p>
 <h2 id="json">json<a class="headerlink" href="#json" title="Permanent link">#</a></h2>
@@ -952,7 +945,7 @@ $ sudo make install
                   <div class="md-source-date">
                     <small>
                       
-                        Last update: October 19, 2020
+                        Last update: May 12, 2021
                       
                     </small>
                   </div>
@@ -1038,7 +1031,7 @@ $ sudo make install
     
       <script src="../../assets/javascripts/application.c33a9706.js"></script>
       
-      <script>app.initialize({version:"1.1",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.1.2",url:{base:"../.."}})</script>
       
     
   </body>

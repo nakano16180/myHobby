@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-4.6.3">
     
     
       
@@ -980,16 +980,13 @@
 $ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 </code></pre></div>
 
-
 <h4 id="use-catkin-tools">use catkin-tools<a class="headerlink" href="#use-catkin-tools" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ sudo apt install python-catkin-tools
 </code></pre></div>
 
-
 <h4 id="install-dependencies">install dependencies<a class="headerlink" href="#install-dependencies" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ sudo apt install ros-melodic-controller-* ros-melodic-gazebo-* ros-melodic-moveit* ros-melodic-industrial-core
 </code></pre></div>
-
 
 <h4 id="install-packages-and-build">install packages and build<a class="headerlink" href="#install-packages-and-build" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ mkdir -p catkin_ws/src
@@ -1005,7 +1002,6 @@ $ git clone https://github.com/ROBOTIS-GIT/robotis_manipulator.git
 $ <span class="nb">cd</span> ~/catkin_ws/ <span class="o">&amp;&amp;</span> catkin build
 </code></pre></div>
 
-
 <h4 id="launch-gazebo-simulator">launch Gazebo simulator<a class="headerlink" href="#launch-gazebo-simulator" title="Permanent link">#</a></h4>
 <ul>
 <li><a href="http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_simulation/">Gazebo Simlation</a></li>
@@ -1018,7 +1014,6 @@ $ roslaunch open_manipulator_controller open_manipulator_controller.launch
 $ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 </code></pre></div>
 
-
 <h4 id="launch-real-robot">launch real robot<a class="headerlink" href="#launch-real-robot" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ roscore
 $ rosrun open_manipulator_controller create_udev_rules
@@ -1027,13 +1022,11 @@ $ roslaunch open_manipulator_controller open_manipulator_controller.launch
 $ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 </code></pre></div>
 
-
 <h3 id="use-ros2">use ROS2<a class="headerlink" href="#use-ros2" title="Permanent link">#</a></h3>
 <h4 id="install-dependencies_1">install dependencies<a class="headerlink" href="#install-dependencies_1" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ sudo apt install python3-rospkg
 $ sudo apt install ros-dashing-python* ros-dashing-rqt*
 </code></pre></div>
-
 
 <h4 id="install-packages-and-build_1">install packages and build<a class="headerlink" href="#install-packages-and-build_1" title="Permanent link">#</a></h4>
 <div class="codehilite"><pre><span></span><code>$ mkdir -p ~/robotis_ws/src/ <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/robotis_ws/src
@@ -1047,16 +1040,13 @@ $ git clone -b ros2 https://github.com/ROBOTIS-GIT/robotis_manipulator.git
 $ <span class="nb">cd</span> ~/robotis_ws <span class="o">&amp;&amp;</span> colcon build --symlink-install
 </code></pre></div>
 
-
 <div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/robotis_ws/install/local_setup.bash
 $ ros2 run open_manipulator_x_controller create_udev_rules
 </code></pre></div>
 
-
 <div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/robotis_ws/install/local_setup.bash
 $ ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch.py
 </code></pre></div>
-
 
 <div class="codehilite"><pre><span></span><code>$ <span class="nb">source</span> ~/robotis_ws/install/local_setup.bash
 $ ros2 topic pub /open_manipulator_x/option std_msgs/msg/String <span class="s2">&quot;data: print_open_manipulator_x_setting&quot;</span>
@@ -1071,7 +1061,7 @@ $ ros2 run open_manipulator_x_teleop open_manipulator_x_teleop_keyboard
                   <div class="md-source-date">
                     <small>
                       
-                        Last update: October 19, 2020
+                        Last update: May 12, 2021
                       
                     </small>
                   </div>
@@ -1157,7 +1147,7 @@ $ ros2 run open_manipulator_x_teleop open_manipulator_x_teleop_keyboard
     
       <script src="../../assets/javascripts/application.c33a9706.js"></script>
       
-      <script>app.initialize({version:"1.1",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.1.2",url:{base:"../.."}})</script>
       
     
   </body>
