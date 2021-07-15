@@ -9,45 +9,41 @@ repo_url: https://github.com/nakano16180/myHobby
 edit_uri: ""
 
 # Copyright
-copyright: "Copyright (c) 2020"
+copyright: "Copyright (c) 2021"
 
 # Documentation and theme
 docs_dir: "docs"
-theme: "material"
-
-# Options
-extra:
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
   palette:
-    primary: "Light Blue"
-    accent: "Orange"
+    primary: Light Blue
+    accent: Orange
   font:
-    text: "Roboto"
-    code: "Roboto Mono"
-  i18n:
-    prev: "Previous"
-    next: "Next"
-  social:
-    - type: github
-      link: https://github.com/nakano16180
-    - type: twitter
-      link: https://twitter.com/newton112358
+    text: Roboto
+    code: Roboto Mono
 
 # Extensions
 markdown_extensions:
   - codehilite:
   - admonition:
   - toc:
-      permalink: "#"
+      permalink: true
+      toc_depth: 3
 
 plugins:
   - search
-  - git-revision-date-localized
 
 # Page tree
 nav:
   - Introduction: index.md
-  - About Me: about.md
-  - 成果物: ./dev/deliverable.md
+  - About Me: 
+    - About me: about.md
+    - 成果物: ./dev/deliverable.md
   - 学習記録:
       - ドキュメント: ./dev/document.md
       - 開発環境:
@@ -72,10 +68,5 @@ nav:
       - ML:
           - Tools: ./ML/ml-tools.md
       - RL:
-          - Pythonで学ぶ強化学習: ./RL/python_RL.md
           - Gym Ignition: ./RL/gym_ignition.md
-      - ROS:
-          - ROS: ./ROS/ros.md
-          - Turtlebot: ./ROS/turtlebot.md
-          - Open Manipilator: ./ROS/open_manipulator.md
-          - Ignition: ./ROS/ignition.md
+
